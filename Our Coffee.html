@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Coffee - Coffee Cafe</title>
+ <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap-icons.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/jquery.js"></script>
+
+  
+</head>
+<body>
+
+<main>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark container p-1">
+      <div class="container">
+        <img src="./images/logo (2).png" alt="Avatar Logo" style="width:60px;" class="me-5">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse inner" id="navbarCollapse">
+         
+            <a href="#">Home <span></span></a>
+            <a href="About.html">About us <span></span></a>
+            <a href="Our menu.html">Menu <span></span></a>
+           
+            <div class="dropdown">
+            <a href="#" onclick="myFunction()"  class=" dropbtn">Sections<span></span></a>
+              <div id="myDropdown" class="dropdown-content  bg-dark">
+                <a href="Our Coffee.html">Our Coffee <span></span></a>
+                <a href="Our Story.html">Our Story <span></span></a>
+                <a href="products.php">Products <span></span></a>
+                <a href="services.php">Services <span></span></a>
+              </div>
+            </div>
+        </div>
+          <div class="text-end d-flex">
+          <button type="button" class="btn  " style="background-color: #DFA878;">
+            <a href="signin.php"
+                style="text-decoration: none; color: rgb(255, 255, 255);font-family:Georgia, 'Times New Roman', Times, serif; ">Sign Up</a>
+              </button>
+          </div>
+        
+      </div>
+    </nav>
+    </header>
+<br></br>
+ <!-- this is our coffee section -->
+
+<section class="container py-5 ourCoffee" >
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Our Coffee</h2>
+    <p class="coffee-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Sed aliquam, elit nec tempor vestibulum, massa urna luctus nisi, nec convallis dolor mi et ligula.</p>
+    
+    <div class="row">
+      <div class="col-md-6 d-flex justify-content-center align-items-center"> <!-- Centering column content -->
+        <div class="coffee-image">
+          <img src="./images/i1.png" class="img-fluid" alt="Coffee Image 1">
+          <h3 class="image-description">Espresso Supreme</h3>
+          <p class="image-description">Rich, bold espresso shot with velvety crema, a perfect balance of intensity and smoothness</p>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center"> <!-- Centering column content -->
+        <div class="coffee-image">
+          <img src="./images/i3.png" class="img-fluid" alt="Coffee Image 2"> <!-- Replace 'coffee_image2.jpg' with the path to your image -->
+          <h3 class="image-description">Caramel Macchiato</h3>
+          <p class="image-description">Smooth espresso with steamed milk, topped with caramel drizzle for a sweet, indulgent treat</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-md-6 d-flex justify-content-center align-items-center"> <!-- Centering column content -->
+        <div class="coffee-image">
+          <img src="./images/i7.png" class="img-fluid" alt="Coffee Image 3"> <!-- Replace 'coffee_image3.jpg' with the path to your image -->
+          <h3 class="image-description">Mocha Madness</h3>
+          <p class="image-description">Decadent blend of espresso, chocolate, and steamed milk, crowned with whipped cream and chocolate shavings</p>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center"> 
+        <div class="coffee-image">
+          <img src="./images/i5.png" class="img-fluid" alt="Coffee Image 4"> <!-- Replace 'coffee_image4.jpg' with the path to your image -->
+          <h3 class="image-description">Vanilla Bliss Latte</h3>
+          <p class="image-description">Creamy latte infused with fragrant vanilla syrup, a comforting and aromatic choice for any time of day</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 d-flex justify-content-center align-items-center"> 
+        <div class="coffee-image">
+          <img src="./images/i4.png" class="img-fluid" alt="Coffee Image 3"> <!-- Replace 'coffee_image3.jpg' with the path to your image -->
+          <h3 class="image-description">Hazelnut Heaven</h3>
+          <p class="image-description">Nutty hazelnut syrup swirled into rich espresso and frothy milk, a delightful harmony of flavors.</p>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center"> 
+        <div class="coffee-image">
+          <img src="./images/i2.png" class="img-fluid" alt="Coffee Image 4"> <!-- Replace 'coffee_image4.jpg' with the path to your image -->
+          <h3 class="image-description">Cinnamon Swirl Cappuccino</h3>
+          <p class="image-description">Espresso topped with frothed milk and a sprinkle of cinnamon, a warm and comforting classic</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 d-flex justify-content-center align-items-center"> <!-- Centering column content -->
+        <div class="coffee-image">
+          <img src="./images/i6.png" class="img-fluid" alt="Coffee Image 3"> <!-- Replace 'coffee_image3.jpg' with the path to your image -->
+          <h3 class="image-description" >Caramel Crunch</h3>
+          <p class="image-description">Refreshing coffee with caramel syrup, a cool and invigorating pick-me-up on a hot day</p>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center"> <!-- Centering column content -->
+        <div class="coffee-image">
+          <img src="./images/i5.png" class="img-fluid" alt="Coffee Image 4"> <!-- Replace 'coffee_image4.jpg' with the path to your image -->
+          <h3 class="image-description">Peppermint Perfection</h3>
+          <p class="image-description">Energizing blend of espresso and steamed milk infused with cooling peppermint syrup, a festive delight</p>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</section>
+<footer class="footer-distributed container p-5">
+
+  <div class="footer-left">
+
+      <img src="./images/logo (2).png" alt="Avatar Logo" style="width:100px;" class="me-5 ">
+
+    <p class="footer-links">
+      <a href="index.html" class="link-1">Home</a>
+      
+      <a href="">Blog</a>
+    
+      <a href="#menu">Pricing</a>
+    
+      <a href="About.html">About</a>
+      
+   
+    </p>
+
+    <p class="footer-company-name">CAFFEAMORE © 2024</p>
+  </div>
+
+  <div class="footer-center">
+
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>144 F Street</span> Fareed Town, Sahiwal</p>
+    </div>
+
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>+92 303 3547589</p>
+    </div>
+
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="support@company.com">support@caffeamore.com</a></p>
+    </div>
+
+  </div>
+
+  <div class="footer-right">
+
+    <p class="footer-company-about" style="color: #fff;">
+      <span>About Our Cafe</span>
+      We source the finest coffee beans from around the world, ensuring ethical practices and fair trade
+      relationships with farmers.
+    </p>
+
+    <div class="footer-icons">
+
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+
+    </div>
+
+  </div>
+
+</footer>
+</main>
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+

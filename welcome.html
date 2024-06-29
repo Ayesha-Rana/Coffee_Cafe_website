@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome Page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Background image covering the whole screen */
+    body {
+      background-image: url('images/w2.jpg'); /* Replace with your image path */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+    .order-now-btn:hover {
+  background-color: #c4875c;
+}
+.order-now-btn {
+  background-color: #dfa878;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+    /* Centered container with logo and buttons */
+    .welcome-container {
+      text-align: center;
+      background-color: transparent; /* Semi-transparent background */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Logo styling */
+    .welcome-logo img {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+
+    /* Buttons styling */
+    .welcome-buttons .btn {
+      margin: 10px;
+      width: 150px;
+    }
+    .admin:hover{
+        color: #c4875c;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome-container">
+    <div class="welcome-logo">
+      <img src="images/logo (2).png" alt="Logo"> <!-- Replace with your logo path -->
+    </div>
+    <div class="welcome-buttons">
+      <a href="signin.php" class="btn order-now-btn">Login as User</a>
+      <a href="admin.php" class="btn btn-light p-2 admin">Login as Admin</a>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
